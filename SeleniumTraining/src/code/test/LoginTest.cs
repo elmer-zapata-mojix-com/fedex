@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SeleniumTraining.src.code.test
 {
-    //[TestClass]
+    [TestClass]
     public class LoginTest : TestBase
     {
 

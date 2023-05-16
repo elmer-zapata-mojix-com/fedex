@@ -24,6 +24,9 @@ namespace SeleniumTraining.src.code.factoryBrowser
                 case "edge":
                     browser = new Edgge();
                     break;
+                case "grid":
+                    browser = new Grid();
+                    break;
                 default:
                     browser = new Chrome();
                     break;
