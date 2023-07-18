@@ -13,7 +13,7 @@ namespace SeleniumTraining.src.code.test
         [TestInitialize]
         public void OpenBrowser()
         {
-            session.Session.Instance().GetBrowser().Navigate().GoToUrl("http://todo.ly/");
+            session.Session.Instance().GetBrowser().Navigate().GoToUrl("https://fedex.vizix.io");
         }
 
         [TestCleanup]
